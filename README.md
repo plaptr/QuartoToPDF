@@ -1,21 +1,19 @@
-# bun-react-tailwind-shadcn-template
+# Quarto to PDF
 
-To install dependencies:
+A simple web service to convert Quarto documents to PDF using [Quarto](https://quarto.org/).
 
-```bash
-bun install
-```
+## Run with Docker
 
-To start a development server:
+Create an image with
 
 ```bash
-bun dev
+docker build -t quarto-to-pdf
 ```
 
-To run for production:
+Then run a container with
 
 ```bash
-bun start
+docker run -p 3000:3000 quarto-to-pdf
 ```
 
-This project was created using `bun init` in bun v1.3.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Now you can access the service at `http://localhost:3000`.
