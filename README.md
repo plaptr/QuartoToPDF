@@ -1,6 +1,6 @@
 # Quarto to PDF
 
-A simple web service to convert Quarto documents to PDF using [Quarto](https://quarto.org/).
+A simple web service to convert Quarto documents to PDF using [Decktape](https://github.com/astefanutti/decktape).
 
 ## Run with Docker
 
